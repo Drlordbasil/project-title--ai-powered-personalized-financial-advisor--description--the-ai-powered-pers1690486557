@@ -1,0 +1,6 @@
+The package requirements for this Python program are as follows:
+
+- pandas
+- scikit-learn (sklearn)
+- speech_recognition
+- pyttsx3
