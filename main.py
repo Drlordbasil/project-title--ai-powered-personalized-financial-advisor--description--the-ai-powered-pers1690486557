@@ -9,6 +9,7 @@ import speech_recognition as sr
 import pyttsx3
 import os
 
+
 class PersonalizedFinancialAdvisor:
     def __init__(self):
         self.income_data = pd.DataFrame()
@@ -107,6 +108,7 @@ class PersonalizedFinancialAdvisor:
         self.natural_language_interface()
         self.save_data()
         self.save_models()
+
 
 if __name__ == "__main__":
     advisor = PersonalizedFinancialAdvisor()
